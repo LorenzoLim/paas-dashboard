@@ -1,4 +1,4 @@
-import { ChartBar, ChevronRight } from "lucide-react";
+import { ChartBar, ChevronRight, MapPin } from "lucide-react";
 
 export const Sidebar = () => {
   return (
@@ -13,8 +13,17 @@ export const Sidebar = () => {
         <div className="text-primar text-left">General</div>
         <div className="p-3 flex justify-between">
           <div className="flex">
-            <ChartBar className="text-primary" />{" "}
+            <ChartBar className="text-primary" />
             <span className="pl-2">Graphs</span>
+          </div>
+          <div>
+            <ChevronRight className="text-primary" />
+          </div>
+        </div>
+        <div className="p-3 flex justify-between">
+          <div className="flex">
+            <MapPin className="text-primary" />
+            <span className="pl-2">Maps</span>
           </div>
           <div>
             <ChevronRight className="text-primary" />
