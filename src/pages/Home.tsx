@@ -238,31 +238,6 @@ export const Home = () => {
                       </a>
                     </td>
                   </tr>
-                  <tr>
-                    <td className="p-4">
-                      <p className="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
-                        Richard Gran
-                      </p>
-                    </td>
-                    <td className="p-4">
-                      <p className="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
-                        Manager
-                      </p>
-                    </td>
-                    <td className="p-4">
-                      <p className="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
-                        04/10/21
-                      </p>
-                    </td>
-                    <td className="p-4">
-                      <a
-                        href="#"
-                        className="block font-sans text-sm antialiased font-medium leading-normal text-blue-gray-900"
-                      >
-                        Edit
-                      </a>
-                    </td>
-                  </tr>
                 </tbody>
               </table>
             </div>
