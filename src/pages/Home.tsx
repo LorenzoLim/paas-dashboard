@@ -1,13 +1,11 @@
 import { ClipboardCheck, CreditCard, ShoppingCart, Users } from "lucide-react";
-import { Navbar } from "../components/Navbar";
 import { Sidebar } from "../components/Sidebar";
 
 export const Home = () => {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
-      <Navbar />
       <Sidebar />
-      <div className="h-[calc(100vh-68px)] w-[calc(100vw-240px)] mt-17 ml-60 text-left p-10">
+      <div className="h-[calc(100vh-68px)] w-[calc(100vw-240px)] ml-60 text-left p-10">
         <div>
           <h1 className="text-xl md:text-2xl font-bold tracking-tight mb-10">
             Overview
@@ -81,14 +79,14 @@ export const Home = () => {
               </div>
             </div>
           </div>
-          <div className="bg-card p-5 mt-10 rounded shadow-xs h-200">
+          <div className="bg-card p-5 mt-10 rounded shadow-xs">
             <div className="flex justify-between border-b-2 border-black-900 pb-5">
               <h2 className="text-xl font-bold tracking-tight">Users</h2>
               <div>
                 <button className="cosmic-button cursor-pointer">Export</button>
               </div>
             </div>
-            <div className="relative flex flex-col w-full h-full mt-10 overflow-scroll text-gray-700 bg-white shadow-md rounded-xl bg-clip-border">
+            <div className="relative flex flex-col w-full mt-10 text-gray-700 bg-white shadow-md rounded-xl bg-clip-border">
               <table className="w-full text-left table-auto min-w-max">
                 <thead>
                   <tr>

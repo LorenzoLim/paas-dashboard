@@ -12,7 +12,7 @@ import {
 
 export const Sidebar = () => {
   return (
-    <div className="absolute w-60 h-[calc(100vh-68px)] shadow-xl bg-gray-300) p-5 mt-17 flex flex-col justify-between">
+    <div className="absolute w-60 h-[calc(100vh)] shadow-xl bg-gray-300) p-5 flex flex-col justify-between">
       <div>
         <div className="flex">
           <div>
